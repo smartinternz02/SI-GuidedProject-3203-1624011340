@@ -1,0 +1,23 @@
+#id1
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+#id2
+{
+	background-image: url_for('static', filename='img/Img2.PNG') }};
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 50%;
+	background-position: 95% 80%;
+}
+#id3
+{
+	background-image: url({{ url_for('static', filename='img/Img5.jpe') }});
+	background-repeat : no-repeat;
+	background-attachment: fixed;
+	background-size: 25%;
+	background-position: 80% 70%;
+}
